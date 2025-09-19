@@ -481,7 +481,7 @@ function Queue({isHost, initQueue, socket, username, sid
                   ))}
             </div>
         </div>
-    
+
         {toastMessage && <Toast message={toastMessage} onClose={() => setToastMessage('')} />}
     </>
   );
